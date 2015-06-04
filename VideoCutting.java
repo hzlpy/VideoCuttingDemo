@@ -44,7 +44,6 @@ public class VideoCutting {
 		// Todo
 		String cutintoPieces = "avidemux2_cli --nogui --load " + infile
 				+ " --autosplit " + size + " --save " + outfile;
-		;
 		try {
 			Runtime rt = Runtime.getRuntime();
 			Process proc = rt.exec(cutintoPieces);
